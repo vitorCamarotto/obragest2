@@ -3,7 +3,7 @@
  - Tailwind ✅
  - Google fonts ✅
  - Vuetify ✅
- - Vitest
+ - Vitest ✅
  - i18n
  - Supabase
 
