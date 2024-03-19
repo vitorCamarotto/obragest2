@@ -5,6 +5,7 @@
  - Vuetify
  - Vitest
  - i18n
+ - Supabase
 
 
 ## Nuxt 3 Minimal Starter
