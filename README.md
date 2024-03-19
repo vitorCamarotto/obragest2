@@ -2,7 +2,7 @@
 ## Checklist:
  - Tailwind ✅
  - Google fonts ✅
- - Vuetify
+ - Vuetify ✅
  - Vitest
  - i18n
  - Supabase
