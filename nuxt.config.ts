@@ -10,6 +10,7 @@ export default defineNuxtConfig({
     },
     '@nuxtjs/tailwindcss',
     '@nuxtjs/google-fonts',
+    '@nuxt/test-utils/module'
   ],
   css: ['vuetify/lib/styles/main.sass'],
   googleFonts: {
