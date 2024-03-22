@@ -11,7 +11,8 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
     '@nuxtjs/google-fonts',
     '@nuxt/test-utils/module',
-    '@nuxtjs/i18n'
+    '@nuxtjs/i18n',
+    '@nuxtjs/supabase'
   ],
   css: ['vuetify/lib/styles/main.sass'],
   googleFonts: {
@@ -32,4 +33,7 @@ export default defineNuxtConfig({
   i18n: {
     vueI18n: './i18n.config.ts'
   },
+  supabase: {
+    redirect: false
+  }
 })
