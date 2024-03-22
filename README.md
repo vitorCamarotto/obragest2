@@ -4,7 +4,7 @@
  - Google fonts ✅
  - Vuetify ✅
  - Vitest ✅
- - i18n
+ - i18n ✅
  - Supabase
 
 
