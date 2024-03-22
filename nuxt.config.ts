@@ -10,7 +10,8 @@ export default defineNuxtConfig({
     },
     '@nuxtjs/tailwindcss',
     '@nuxtjs/google-fonts',
-    '@nuxt/test-utils/module'
+    '@nuxt/test-utils/module',
+    '@nuxtjs/i18n'
   ],
   css: ['vuetify/lib/styles/main.sass'],
   googleFonts: {
@@ -27,5 +28,8 @@ export default defineNuxtConfig({
         transformAssetUrls,
       },
     },
+  },
+  i18n: {
+    vueI18n: './i18n.config.ts'
   },
 })
